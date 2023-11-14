@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on My New Hugo Site</title>
-    <link>https://leocoyere.github.io/hugo/posts/</link>
+    <link>https://leocoyere.github.io/gohugo/posts/</link>
     <description>Recent content in Posts on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 14 Nov 2023 14:56:55 +0100</lastBuildDate>
-    <atom:link href="https://leocoyere.github.io/hugo/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://leocoyere.github.io/gohugo/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Review</title>
-      <link>https://leocoyere.github.io/hugo/posts/review/</link>
+      <link>https://leocoyere.github.io/gohugo/posts/review/</link>
       <pubDate>Tue, 14 Nov 2023 14:56:55 +0100</pubDate>
-      <guid>https://leocoyere.github.io/hugo/posts/review/</guid>
+      <guid>https://leocoyere.github.io/gohugo/posts/review/</guid>
       <description></description>
     </item>
   </channel>

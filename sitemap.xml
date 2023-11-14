@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://leocoyere.github.io/hugo/</loc>
+    <loc>https://leocoyere.github.io/gohugo/</loc>
     <lastmod>2023-11-14T14:56:55+01:00</lastmod>
   </url><url>
-    <loc>https://leocoyere.github.io/hugo/posts/</loc>
+    <loc>https://leocoyere.github.io/gohugo/posts/</loc>
     <lastmod>2023-11-14T14:56:55+01:00</lastmod>
   </url><url>
-    <loc>https://leocoyere.github.io/hugo/posts/review/</loc>
+    <loc>https://leocoyere.github.io/gohugo/posts/review/</loc>
     <lastmod>2023-11-14T14:56:55+01:00</lastmod>
   </url><url>
-    <loc>https://leocoyere.github.io/hugo/categories/</loc>
+    <loc>https://leocoyere.github.io/gohugo/categories/</loc>
   </url><url>
-    <loc>https://leocoyere.github.io/hugo/tags/</loc>
+    <loc>https://leocoyere.github.io/gohugo/tags/</loc>
   </url>
 </urlset>
