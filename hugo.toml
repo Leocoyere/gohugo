@@ -1,4 +1,7 @@
 baseURL = 'https://leocoyere.github.io/gohugo/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Mon blog perso'
 theme = 'ananke'
+
+[params]
+description = "Un blog personnel sur Github Pages & Hugo"
