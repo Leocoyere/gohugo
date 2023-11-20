@@ -1,8 +1,25 @@
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+    padding: 0 2rem;
+}
+
 .header__title {
     width: 70%;
     margin: auto;
     padding: 2rem;
     font-size: 3rem;
+}
+
+.header__title--page {
+    font-size: 3rem;
+}
+
+.header__author {
+    color: #95B8D1;
+    font-size: 2rem;
 }
 
 .header__line {

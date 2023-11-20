@@ -5,3 +5,4 @@ theme = 'ananke'
 
 [params]
 description = "Un blog personnel sur Github Pages & Hugo"
+logo = "/gohugo/images/home.svg"

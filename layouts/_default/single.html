@@ -1,0 +1,12 @@
+{{ define "header" }}
+	{{ partial "page-header.html" . }}
+{{ end }}
+{{ define "main" }}
+	<article class="page">
+		{{ if not .Date.IsZero }}
+			<p class="page__date">{{- .Date | time.Format (default "January 2, 2006" .Site.Params.date_format) -}}</p>
+		{{end}}
+		<p>{{- .Content -}}</p>
+	</article>
+{{end}}
+  

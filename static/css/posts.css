@@ -1,5 +1,6 @@
 .posts {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 3rem;
 }
 
@@ -12,10 +13,8 @@
 }
 
 .post {
-    flex-basis: 33%;
-    aspect-ratio: 2/1;
     background-color: #eee;
-    padding: 1rem 2rem;
+    padding: 1.5rem 2rem;
     transition: transform 0.2s ease-out;
 }
 

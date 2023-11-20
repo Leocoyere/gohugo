@@ -1,0 +1,23 @@
+{{ $iconPath := partial "func/GetIconPath.html" . }}
+<header class="header">
+	{{ partial "site-navigation.html" .}}
+	<div class="header__wrapper">
+		<h1 class="header__title--page">
+			{{ .Title | default .Site.Title }} 
+			{{ with .Params.author | default .Site.Params.author }}
+			<span class="header__author">by&nbsp;
+				{{- if reflect.IsSlice . -}}
+					{{ delimit . " " | markdownify }}
+				  {{- else -}}
+					{{ . | markdownify }}
+				  {{- end -}}
+			</span>
+			{{ end }}
+		</h1>
+		<img src="{{ $iconPath }}" alt="Icon" class="post__image">
+	</div>
+	<div class="header__line"></div>
+	<div class="header__wrapper">
+		{{- partial "tags.html" . -}}
+	</div>
+</header>
