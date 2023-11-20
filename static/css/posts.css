@@ -1,0 +1,33 @@
+.posts {
+    display: flex;
+    gap: 3rem;
+}
+
+.pinned {
+    background-color: #809BCE;
+}
+
+.pinned > .post {
+    background-color: #fff;
+}
+
+.post {
+    flex-basis: 33%;
+    aspect-ratio: 2/1;
+    background-color: #eee;
+    padding: 1rem 2rem;
+    transition: transform 0.2s ease-out;
+}
+
+.post:hover {
+    transform: scale(1.05);
+}
+
+.post > a {
+    text-decoration: none;
+    color: #000;
+}
+
+.post__image {
+    width: 100px;
+}
