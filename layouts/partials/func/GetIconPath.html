@@ -1,0 +1,12 @@
+{{/*
+	GetIconPath.html
+
+	Cette fonction prend en paramètre la page (post) et retourne le chemin de l'icône en fonction de la propriété custom "icon".
+*/}}
+{{ $IconPath := "" }}
+{{ with .Params.icon }}
+    {{ $IconPath = printf "/gohugo/images/%s.png" . | absURL }}
+{{ else }}
+    {{ $IconPath = "/images/default-icon.jpg" | absURL }}
+{{ end }}
+{{ return $IconPath }}
